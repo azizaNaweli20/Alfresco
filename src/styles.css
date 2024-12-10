@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+
+  color: white;
+  padding: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.home {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body, h1, h2, h3, p, ul, ol, li, header, .home {
+  margin: 0;
+  padding: 0;
+}

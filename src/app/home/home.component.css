@@ -1,0 +1,72 @@
+/* Mise en page de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Partie gauche */
+  .left-section {
+    flex: 2;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .photo-slider {
+    width: 100%; /* Utilise toute la largeur disponible */
+    height: 200px; /* Hauteur du slider */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .photo {
+    display: none; /* Les photos seront affichées par le script JavaScript */
+  }
+  
+  .photo img {
+    width: 100%; /* S'assure que l'image prend toute la largeur du conteneur */
+    height: auto; /* Maintient le ratio de l'image */
+    object-fit: cover; /* Remplit l'espace tout en conservant le ratio, rogne si nécessaire */
+    border-radius: 10px;
+  }
+  
+  .photo .slogan {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  .home {
+    margin: 0; /* Supprime les marges */
+    padding: 0; /* Supprime le padding */
+  }
+
+  
+  .photo {
+    display: block; /* Assure que les photos sont visibles */
+    width: 100%; /* Prend toute la largeur du conteneur */
+    height: 300px; /* Hauteur fixée pour uniformiser */
+  }
+  
+  .photo img {
+    width: 100%; /* Prend toute la largeur de la div .photo */
+    height: 100%; /* Remplit toute la hauteur de la div .photo */
+    object-fit: cover; /* Remplit l'espace tout en gardant le ratio */
+    border-radius: 10px;
+  }
+  
